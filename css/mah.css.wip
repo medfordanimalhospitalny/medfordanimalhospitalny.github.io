@@ -1,6 +1,6 @@
 body
 {
-	margin-top: 60px;
+	margin-top: 80px;
 	padding-bottom: 10px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
@@ -25,13 +25,30 @@ h3
 }
 
 /* Customize the navigation bar */
+
 .navbar
 {
 	background-color: #3a2c23;
 	border-color: #69503d;
 	font-family: 'Oswald', sans-serif;
-	font-size: 16px;
+	font-size: 1.3em;
 	text-transform: uppercase;
+	padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.navbar-dark .navbar-toggler .icon-bar {
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+	margin: 5px 0px 5px 0px;
+	background-color: #ffffff;
+}
+
+
+.navbar-nav .nav-link
+{
+	padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
 .navbar .navbar-brand 
@@ -65,24 +82,24 @@ h3
   color: #ffffff;
   background-color: #69503d;
 }
-.navbar .navbar-toggle {
-  border-color: #69503d;
+.navbar-dark .navbar-toggler {
+	border-color: #69503d
 }
-.navbar .navbar-toggle:hover,
-.navbar .navbar-toggle:focus {
+.navbar-dark .navbar-toggler:hover,
+.navbar-dark .navbar-toggler:focus {
   background-color: #69503d;
 }
-.navbar .navbar-toggle .icon-bar {
+.navbar-dark .navbar-toggler .icon-bar {
   background-color: #ffffff;
 }
 .navbar .navbar-collapse,
 .navbar .navbar-form {
   border-color: #ffffff;
 }
-.navbar .navbar-link {
+.nav-link {
   color: #ffffff;
 }
-.navbar .navbar-link:hover {
+.nav-link:hover {
   color: #ffffff;
 }
 
@@ -101,6 +118,7 @@ h3
     background-color: #69503d;
   }
 }
+
 
 a img
 {
@@ -157,6 +175,7 @@ a img
 #slidesContainer
 {
 	margin-top: 10px;
+	margin-bottom: 15px;
 }
 
 /* Prevent the slideshow from flashing on load */
