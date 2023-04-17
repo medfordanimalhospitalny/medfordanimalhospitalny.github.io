@@ -1,0 +1,214 @@
+body
+{
+	margin-top: 80px;
+	padding-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 200;
+	color: #454545;
+}
+
+h1, h2, h3 
+{
+	font-weight: 300;
+	font-family: 'Oswald', sans-serif;
+	color: #3a2c23;
+}
+
+h2 {
+	font-size: 2.7em;
+}
+
+h3
+{
+	font-size: 30px;
+}
+
+/* Customize the navigation bar */
+
+.navbar
+{
+	background-color: #3a2c23;
+	border-color: #69503d;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.navbar-dark .navbar-toggler .icon-bar {
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+	margin: 5px 0px 5px 0px;
+	background-color: #ffffff;
+}
+
+
+.navbar-nav .nav-link
+{
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.navbar .navbar-brand 
+{
+  color: #ffffff;
+}
+.navbar.navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar .navbar-text 
+{
+	color: #ffffff;
+}
+.navbar.navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #69503d;
+}
+.navbar .navbar-nav > .open > a,
+.navbar .navbar-nav > .open > a:hover,
+.navbar.navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #69503d;
+}
+.navbar-dark .navbar-toggler {
+	border-color: #69503d
+}
+.navbar-dark .navbar-toggler:hover,
+.navbar-dark .navbar-toggler:focus {
+  background-color: #69503d;
+}
+.navbar-dark .navbar-toggler .icon-bar {
+  background-color: #ffffff;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #ffffff;
+}
+.nav-link {
+  color: #ffffff;
+}
+.nav-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #69503d;
+  }
+}
+
+
+a img
+{
+	border: none;
+}
+
+#logo
+{
+	margin: 0 auto;
+}
+
+#contactInfo
+{
+	display: inline-block;
+}
+
+.callUsText
+{
+	font-weight: 500;
+	font-size: 21px;
+	font-family: 'Oswald', sans-serif;
+	color: #3a2c23;
+}
+
+.callUsTextPhone
+{
+	font-weight: 500;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	color: #3a2c23;
+}
+
+.addressText
+{
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+	color: #3a2c23;
+}
+
+#socialMediaLinks
+{
+	margin-top: 10px;
+	text-align: right;
+	background: #ECECEC;
+	padding: 5px 5px 5px 5px;
+	border-radius: 5px;
+}
+
+.socialMediaLink
+{
+	padding-left: 5px;
+}
+
+#slidesContainer
+{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+/* Prevent the slideshow from flashing on load */
+#slides 
+{
+	display: none
+}
+		
+/* Remove Play and Stop buttons from SlideJs */
+.slidesjs-play
+{
+	display:none !important;
+}
+.slidesjs-stop
+{
+	display:none !important;
+}
+
+/* Make the Google Maps iFrame responsive */
+#googleMaps
+{
+	 position: relative;
+	 margin-top: 20px;
+     padding-bottom: 65%; /* This is the aspect ratio */
+     height: 0;
+     overflow: hidden;
+}
+
+#googleMaps iframe 
+{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+}
